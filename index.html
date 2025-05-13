@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kashif - AI Engineering Student Portfolio | Machine Learning, Deep Learning, and Data Science">
+    <meta name="keywords" content="AI Engineer, Machine Learning, Deep Learning, Data Science, Python, TensorFlow, PyTorch">
+    <meta name="author" content="Kashif">
+    <meta property="og:title" content="Kashif - AI Engineer Portfolio">
+    <meta property="og:description" content="AI Engineering student skilled in Python, Machine Learning, and Data Science">
+    <meta property="og:type" content="website">
+    <title>Kashif - AI Engineer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.7.14/lottie.min.js"></script>
+</head>
+<body class="light-mode">
+    <div class="theme-switch">
+        <i class="fas fa-sun"></i>
+        <label class="switch">
+            <input type="checkbox" id="theme-toggle">
+            <span class="slider round"></span>
+        </label>
+        <i class="fas fa-moon"></i>
+    </div>
+
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">K<span class="logo-dot">.</span></div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="typewriter">Hi, I'm Kashif</h1>
+                    <h2>AI Engineering Student</h2>
+                    <p>Building the future with Artificial Intelligence</p>
+                    <div class="cta-buttons">
+                        <a href="#contact" class="btn primary">Contact Me</a>
+                        <a href="#projects" class="btn secondary">View Projects</a>
+                    </div>
+                </div>
+                <div class="hero-animation" id="ai-animation"></div>
+            </div>
+        </div>
+        <div class="circuit-background"></div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-slider">
+                        <div class="slider-container">
+                            <!-- Images will be loaded dynamically via JavaScript -->
+                        </div>
+                        <div class="slider-controls">
+                            <button class="slider-btn prev" aria-label="Previous image">
+                                <i class="fas fa-chevron-left"></i>
+                            </button>
+                            <div class="slider-dots">
+                                <!-- Dots will be added dynamically -->
+                            </div>
+                            <button class="slider-btn next" aria-label="Next image">
+                                <i class="fas fa-chevron-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p>AI Engineer passionate about solving real-world problems using Deep Learning, NLP, and data-driven methods. Skilled in Python, C++, and modern AI tools.</p>
+                    <p>Currently focused on developing innovative AI solutions and exploring the latest advancements in machine learning technology.</p>
+                    <div class="quick-contact">
+                        <a href="mailto:kashifmayar7@gmail.com"><i class="fas fa-envelope"></i> kashifmayar7@gmail.com</a>
+                        <a href="tel:+923121502390"><i class="fas fa-phone"></i> +92 312 1502390</a>
+                    </div>
+                </div>
+            </div>
+            <div class="floating-icons">
+                <div class="tech-icon" id="python-icon"></div>
+                <div class="tech-icon" id="ai-icon"></div>
+                <div class="tech-icon" id="data-icon"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="group relative flex cursor-pointer">
+                    <img class="skill-image" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+                    <div class="skill-overlay">
+                        <p class="skill-percentage">90%</p>
+                    </div>
+                </div>
+                <div class="group relative flex cursor-pointer">
+                    <img class="skill-image" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++">
+                    <div class="skill-overlay">
+                        <p class="skill-percentage">80%</p>
+                    </div>
+                </div>
+                <div class="group relative flex cursor-pointer">
+                    <img class="skill-image" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="PyTorch">
+                    <div class="skill-overlay">
+                        <p class="skill-percentage">75%</p>
+                    </div>
+                </div>
+                <div class="group relative flex cursor-pointer">
+                    <img class="skill-image" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow">
+                    <div class="skill-overlay">
+                        <p class="skill-percentage">80%</p>
+                    </div>
+                </div>
+                <div class="group relative flex cursor-pointer">
+                    <img class="skill-image" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="NumPy">
+                    <div class="skill-overlay">
+                        <p class="skill-percentage">85%</p>
+                    </div>
+                </div>
+                <div class="group relative flex cursor-pointer">
+                    <img class="skill-image" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="Pandas">
+                    <div class="skill-overlay">
+                        <p class="skill-percentage">85%</p>
+                    </div>
+                </div>
+                <div class="group relative flex cursor-pointer">
+                    <img class="skill-image" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" alt="Flask">
+                    <div class="skill-overlay">
+                        <p class="skill-percentage">60%</p>
+                    </div>
+                </div>
+                <div class="group relative flex cursor-pointer">
+                    <img class="skill-image" src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="OpenCV">
+                    <div class="skill-overlay">
+                        <p class="skill-percentage">75%</p>
+                    </div>
+                </div>
+                <div class="group relative flex cursor-pointer">
+                    <img class="skill-image" src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="SQL">
+                    <div class="skill-overlay">
+                        <p class="skill-percentage">75%</p>
+                    </div>
+                </div>
+                <div class="group relative flex cursor-pointer">
+                    <img class="skill-image" src="https://www.vectorlogo.zone/logos/selenium/selenium-icon.svg" alt="Selenium">
+                    <div class="skill-overlay">
+                        <p class="skill-percentage">75%</p>
+                    </div>
+                </div>
+                <div class="group relative flex cursor-pointer">
+                    <img class="skill-image" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
+                    <div class="skill-overlay">
+                        <p class="skill-percentage">70%</p>
+                    </div>
+                </div>
+                <div class="group relative flex cursor-pointer">
+                    <img class="skill-image" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
+                    <div class="skill-overlay">
+                        <p class="skill-percentage">70%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certificates" class="certificates">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="cert-grid">
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fab fa-google"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Crash Course on Python</h3>
+                        <p>Google (2024)</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Programming For Everybody</h3>
+                        <p>University of Michigan</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Gen AI, NLP, Flask</h3>
+                        <p>Coursera</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="project-carousel">
+                <div class="project-track">
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>Cancer Detection</h3>
+                            <p>Clinical & dermatological images using Deep Learning</p>
+                            <div class="tech-stack">
+                                <span>PyTorch</span>
+                                <span>Computer Vision</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>Pneumonia Detection</h3>
+                            <p>CNN model for analyzing Chest X-rays</p>
+                            <div class="tech-stack">
+                                <span>TensorFlow</span>
+                                <span>CNN</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>Story to Audio</h3>
+                            <p>Text-to-Speech conversion using pyttsx3</p>
+                            <div class="tech-stack">
+                                <span>Python</span>
+                                <span>TTS</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-nav">
+                    <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                    <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:kashifmayar7@gmail.com">kashifmayar7@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <a href="tel:+923121502390">+92 312 1502390</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Kashif. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div class="floating-assistant">
+        <div id="robot-assistant"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
