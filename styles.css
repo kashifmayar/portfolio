@@ -386,22 +386,103 @@ section:nth-child(even) {
 }
 
 /* Experience Section */
+.experience-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
 .experience-card {
     background: var(--card-bg);
+    border-radius: 12px;
     padding: 2rem;
-    border-radius: 1rem;
-    box-shadow: var(--shadow);
     margin-bottom: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
 }
 
-.experience-card h3 {
-    color: var(--primary-color);
-    margin-bottom: 0.5rem;
+.experience-card:hover {
+    transform: translateY(-5px);
 }
 
-.experience-card h4 {
-    color: var(--light-text);
-    margin-bottom: 1rem;
+.company-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.company-logo {
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    object-fit: contain;
+}
+
+.remote-badge {
+    background: var(--accent-color);
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.875rem;
+    margin-left: 1rem;
+}
+
+.tech-stack {
+    margin-top: 1.5rem;
+}
+
+.tech-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+
+.tech-icons img {
+    width: 32px;
+    height: 32px;
+    transition: transform 0.2s ease;
+}
+
+.tech-icons img:hover {
+    transform: scale(1.2);
+}
+
+.skills-gained {
+    margin-top: 1.5rem;
+}
+
+.skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.skill-tag {
+    background: var(--tag-bg);
+    color: var(--tag-text);
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.875rem;
+    transition: background-color 0.2s ease;
+}
+
+.skill-tag:hover {
+    background: var(--tag-hover-bg);
+}
+
+/* Animation classes */
+[data-aos] {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+[data-aos].aos-animate {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 /* Projects Section */
